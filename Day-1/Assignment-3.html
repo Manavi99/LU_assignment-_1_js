@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-3</title>
+</head>
+<body>
+    <h3>Data Types in Javascript</h3>
+    <h4>There are eight basic data types in JavaScript</h4>
+    <h5>Numbers</h5>
+    <p>The number type represents both integer and floating point numbers. There are many operations for numbers, e.g. multiplication *, division /, addition +, subtraction -, etc.</p>
+    n = 12.345;
+    <h5>Big Integer</h5>
+    <p>In JavaScript, the “number” type cannot represent integer values larger than (253-1) (that’s 9007199254740991), or less than -(-253-1) for negatives.</p>
+    
+    const bigInt = 1234567890123456789012345678901234567890;
+
+    <h5>String</h5>
+    <p>A string in JavaScript must be surrounded by quotes.</p>
+    let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed another ${str}`;
+<h5>Boolean</h5>
+<p>The boolean type has only two values: true and false.</p>
+let isGreater = 4 > 1;(true)
+
+
+<h5>Null</h5>
+<p>The special null value does not belong to any of the types</p>
+let age = null;
+
+
+<h5>Undefined</h5>
+<P>The special value undefined also stands apart.
+
+    The meaning of undefined is “value is not assigned”.
+    
+    If a variable is declared, but not assigned, then its value is undefined:</P>
+    let age;
+
+    <h5>Objects & Symbol</h5>
+    <p>
+        The object type is special.
+
+All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.</p>
+
+
+<p>The symbol type is used to create unique identifiers for objects. 
+
+
+    </p>
+
+    <h5> Type of operator</h5>
+    <p>The typeof operator returns the type of the argument. It’s useful when we want to process values of different types differently or just want to do a quick check.
+
+       <p> It supports two forms of syntax:</p>
+        
+        <p>As an operator: typeof x.</p>
+       <p> As a function: typeof(x).</p>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!-- difference between var and let-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+</head>
+<body>
+    <strong style="text-align: center;">Difference between var and lin</strong>
+
+    
+        <h4>Var</h4>
+        <li>Var is function scope </li>
+        <li>var can be accessed outside the looop</li>
+        <li>It acts as global variable</li>
+        <li> It can be updated and redeclared within its scope</li>
+        <li >It can be initialized without declaring</li>
+        <script>
+console.log(x);
+var x=5;
+console.log(x);
+
+</script>
+   
+    
+        <h4>Let</h4>
+        <li> It is limited to block defined by {} </li>
+        <li>Let can be accessed inside the scope it is declared in loop</li>
+        <li>It acts as local variable</li>
+        <li>It can be updated but not redeclared</li>
+        <li >It cannot be initialized without declaring</li>
+
+        <script>
+        {
+        
+        let x=7;
+        console.log(x);
+        }
+        console.log(x);
+
+    </script>
+    
+
+
+    <h4>Const</h4>
+<li> It is limited to block defined by {} </li>
+<li>It cannot be reassigned</li>
+    <li>It can neither be redeclared nor updated</li>
+    <li >It cannot be initialized without declaring</li>
+    <li>It acts as local variable</li>
+    <script>
+{
+        const x = [3.14,2.5];
+        x.push(356);
+        console.log(x);
+}
+        console.log(x); //
+    </script>
+
+    <h1>Check the console</h1>
+</body>
+</html>
